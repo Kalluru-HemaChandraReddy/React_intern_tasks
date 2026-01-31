@@ -1,0 +1,100 @@
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.main-progress-section,
+.sub-progress-section {
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.main-progress-section h3,
+.sub-progress-section h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.progress-bar-wrapper {
+    width: 100%;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.progress-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: width 0.3s ease;
+    border-radius: 20px;
+}
+
+.main-bar {
+    font-size: 1.2rem;
+}
+
+.sub-bar {
+    font-size: 0.9rem;
+}
+
+.bg-red-500 {
+    background-color: #ef4444;
+}
+
+.bg-yellow-500 {
+    background-color: #eab308;
+    color: #333;
+}
+
+.bg-green-500 {
+    background-color: #22c55e;
+}
+
+.sub-progress-item {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+.sub-progress-item label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.input-bar-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.progress-slider {
+    flex: 1;
+    height: 8px;
+    cursor: pointer;
+}
+
+.progress-input {
+    width: 80px;
+    padding: 0.5rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.progress-input:focus {
+    outline: none;
+    border-color: #667eea;
+}

@@ -1,0 +1,46 @@
+.dashboard {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.task-tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.task-tabs button {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #ddd;
+    background: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.task-tabs button:hover {
+    border-color: #667eea;
+    color: #667eea;
+}
+
+.task-tabs button.active {
+    background-color: #667eea;
+    color: white;
+    border-color: #667eea;
+}
+
+.task-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-content h2 {
+    color: #667eea;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}

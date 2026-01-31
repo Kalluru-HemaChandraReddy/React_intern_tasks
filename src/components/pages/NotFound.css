@@ -1,0 +1,19 @@
+.not-found {
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 2rem;
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.not-found h2 {
+    color: #667eea;
+    font-size: 2rem;
+}
+
+.not-found p {
+    color: #666;
+    font-size: 1.1rem;
+}
